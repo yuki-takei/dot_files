@@ -1,6 +1,10 @@
 [user]
 	email = yuki@weseek.co.jp
 	name = Yuki Takei
+[core]
+    autocrlf = false
+    preloadindex = true
+    fscache = true
 [color]
 	ui = true
 	diff = true

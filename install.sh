@@ -4,4 +4,5 @@
 git clone https://github.com/yuki-takei/dotfiles.git
 
 # Create symlink
+ln -s dotfiles/.gitconfig
 ln -s dotfiles/.tmux.conf

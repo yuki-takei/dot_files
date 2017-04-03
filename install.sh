@@ -2,12 +2,8 @@
 
 tempfile=/tmp/dotfiles.tar.gz
 
-# Download zipped installer
-curl -LSfs -o ${tempfile} https://github.com/yuki-takei/dotfiles/archive/master.tar.gz
-
-# Unzip installer into workspace
-mkdir -p dotfiles
-tar zxf ${tempfile} -C dotfiles --strip-components 1
+# clone
+git clone https://github.com/yuki-takei/dotfiles.git
 
 # Create symlink
 ln -s dotfiles/.tmux.conf
